@@ -22,12 +22,13 @@ public:
     Card(int value);
     Card(Card &);
     int get_value();
+    void output();
 
 private:
     // 扑克牌的数值, 从1-54
     // 按照草花->方块->红桃->黑桃->小王->大王的顺序
     int value;
-    // club/ diamond/ heart/ spade/ joker A/ joker
+    // club/ diamond/ heart/ spade/ joker A/ joker B
     string suite;
     // 1-13,
     // for joker 1,2;

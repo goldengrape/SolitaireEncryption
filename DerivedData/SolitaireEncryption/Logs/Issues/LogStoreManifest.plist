@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>D6B5D6D6-E6A8-4479-AB71-EDAD8AD720E0</key>
+		<key>2716C126-13E4-4D9A-8D7B-2487EF7585FE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>D6B5D6D6-E6A8-4479-AB71-EDAD8AD720E0.xcactivitylog</string>
+			<string>2716C126-13E4-4D9A-8D7B-2487EF7585FE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>SolitaireEncryption-gapbwhuhfxwkwfgzjdggyjajfyer</string>
 			<key>timeStartedRecording</key>
-			<real>591608282.62183702</real>
+			<real>591609245.11600399</real>
 			<key>timeStoppedRecording</key>
-			<real>591608283.35988402</real>
+			<real>591609246.08932304</real>
 			<key>title</key>
 			<string>Build target SolitaireEncryption</string>
 			<key>uniqueIdentifier</key>
-			<string>D6B5D6D6-E6A8-4479-AB71-EDAD8AD720E0</string>
+			<string>2716C126-13E4-4D9A-8D7B-2487EF7585FE</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

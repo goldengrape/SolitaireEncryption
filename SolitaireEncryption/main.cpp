@@ -28,17 +28,28 @@ void test_deck_output(Deck &d){
     cout << endl;
 }
 void test_deck(){
-    Card joker_A("joker",1), joker_B(54);
+    Card joker_A("joker",1), joker_B(54), output_card;
     Deck d;
-    cout << endl;
-    d.move_one_down(joker_A);
-    d.move_two_down(joker_B);
-    test_deck_output(d);
-    d.triple_cut();
-    test_deck_output(d);
-    d.count_cut(d.get_card(53).get_value());
-    test_deck_output(d);
+    
+    for (int i=0; i<11;i++){
+//        cout << "Round "<< i<< endl;
+        d.move_one_down(joker_A);
+//        test_deck_output(d);
+        d.move_two_down(joker_B);
+//        test_deck_output(d);
+        d.triple_cut();
+//        test_deck_output(d);
+        d.count_cut(d.get_card(53).get_value());
+//        test_deck_output(d);
+        output_card=d.get_card(
+                           d.get_card(0).get_value()
+                           );
+        output_card.output();
+//        cout << "........."<<endl;
+        cout << " ";
 
+        
+    }
 }
 
 

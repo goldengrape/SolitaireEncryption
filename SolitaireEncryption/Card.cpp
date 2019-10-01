@@ -52,5 +52,6 @@ int Card::get_value(){
     return value;
 }
 void Card::output(){
-    cout << suite << " " <<number << "=" << value<<",";
+//    cout << suite << " " <<number << "=" << value<<",";
+    cout << value;
 }

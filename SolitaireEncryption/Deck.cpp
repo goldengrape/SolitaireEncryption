@@ -112,3 +112,12 @@ void Deck::count_cut(int pos){
     tri_cut(pos, 52, "count");
 }
 
+Card Deck::get_output_card(){
+    Card joker_A("joker",1), joker_B(54);
+    move_one_down(joker_A);
+    move_two_down(joker_B);
+    triple_cut();
+    count_cut(seq[53].value);
+    return seq[seq[1].value-1];
+}
+

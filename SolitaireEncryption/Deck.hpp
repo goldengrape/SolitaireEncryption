@@ -21,6 +21,8 @@ public:
     Deck();
     Deck(const Deck &d): seq(d.seq){};
     
+    Card get_output_card();
+    
     // 将某牌下移一张
     void move_one_down(Card &);
     // 将某牌下移两张

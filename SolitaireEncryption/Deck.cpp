@@ -56,13 +56,24 @@ void Deck::move_two_down(Card &c){
 
 
 
-void Deck::triple_cut(int posA, int posB){
+void Deck::triple_cut(){
     // 三重切牌:
     // 将1-(posA-1) / posA-posB / (posB+1)-last 转换成
     // posB-last/ posA-posB/ 1-(posA-1)
+
+    int posA=-1, posB=-1;
+    for(int i=0;i<54;i++){
+        if (seq[i].value>=53){
+            if (posA<0) {
+                posA=i;
+            } else{
+                posB=i;
+            }
+        }
+    }
     
-    vector<Card> seq_first(seq.cbegin(),seq.cbegin()+posA-1);
-    vector<Card> seq_middle(seq.cbegin()+posA,seq.cbegin()+posB);
+    vector<Card> seq_first(seq.cbegin(),seq.cbegin()+posA-1+1);
+    vector<Card> seq_middle(seq.cbegin()+posA,seq.cbegin()+posB+1);
     vector<Card> seq_last(seq.cbegin()+posB+1,seq.cend());
     
     seq.clear();

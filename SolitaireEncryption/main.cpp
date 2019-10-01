@@ -34,9 +34,8 @@ void test_deck(){
     d.move_one_down(joker_A);
     d.move_two_down(joker_B);
     test_deck_output(d);
-    d.triple_cut(1,52);
+    d.triple_cut();
     test_deck_output(d);
-
 }
 
 

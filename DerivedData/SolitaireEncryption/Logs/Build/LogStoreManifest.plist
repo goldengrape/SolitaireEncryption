@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>011C3ADA-7B51-4E42-8E6F-13A36524B46F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>011C3ADA-7B51-4E42-8E6F-13A36524B46F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591607045.60985994</real>
+			<key>timeStoppedRecording</key>
+			<real>591607047.15596902</real>
+			<key>title</key>
+			<string>Build SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>011C3ADA-7B51-4E42-8E6F-13A36524B46F</string>
+		</dict>
 		<key>01353C51-B7A7-41CA-B274-5C35BE0DFB5D</key>
 		<dict>
 			<key>className</key>
@@ -584,6 +618,40 @@
 			<key>uniqueIdentifier</key>
 			<string>3CABCD01-82DA-4EEC-9F52-A3FC07FFFC8C</string>
 		</dict>
+		<key>3DFA9A66-F0DE-4A9E-B523-8E7345189626</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3DFA9A66-F0DE-4A9E-B523-8E7345189626.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591607574.50407696</real>
+			<key>timeStoppedRecording</key>
+			<real>591607575.32314396</real>
+			<key>title</key>
+			<string>Build SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>3DFA9A66-F0DE-4A9E-B523-8E7345189626</string>
+		</dict>
 		<key>3EAFC151-D120-45E8-84C3-52B8FDF8B210</key>
 		<dict>
 			<key>className</key>
@@ -957,6 +1025,40 @@
 			<string>Build SolitaireEncryption</string>
 			<key>uniqueIdentifier</key>
 			<string>45E502AD-602E-43D8-BFAB-C96C8DEB4EF8</string>
+		</dict>
+		<key>47D47D5A-C97E-45F2-B6AF-F7451EC74D41</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>47D47D5A-C97E-45F2-B6AF-F7451EC74D41.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591607645.49821305</real>
+			<key>timeStoppedRecording</key>
+			<real>591607646.78852201</real>
+			<key>title</key>
+			<string>Build SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>47D47D5A-C97E-45F2-B6AF-F7451EC74D41</string>
 		</dict>
 		<key>49F60361-9C7D-41B1-9225-D8CFD5FE282B</key>
 		<dict>
@@ -2454,6 +2556,40 @@
 			<key>uniqueIdentifier</key>
 			<string>AA36F638-E2EC-4612-9A30-6CA4EB02B7B3</string>
 		</dict>
+		<key>AA3BC5C6-EA6C-4B15-B904-BC75F3164C6C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA3BC5C6-EA6C-4B15-B904-BC75F3164C6C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591607185.26941097</real>
+			<key>timeStoppedRecording</key>
+			<real>591607186.87021995</real>
+			<key>title</key>
+			<string>Build SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>AA3BC5C6-EA6C-4B15-B904-BC75F3164C6C</string>
+		</dict>
 		<key>AA81C278-F029-4309-A3AC-785D463630EB</key>
 		<dict>
 			<key>className</key>
@@ -2487,6 +2623,40 @@
 			<string>Build SolitaireEncryption</string>
 			<key>uniqueIdentifier</key>
 			<string>AA81C278-F029-4309-A3AC-785D463630EB</string>
+		</dict>
+		<key>AB558DE7-E44E-4606-9053-95DE5B5675E2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AB558DE7-E44E-4606-9053-95DE5B5675E2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591607581.96890402</real>
+			<key>timeStoppedRecording</key>
+			<real>591607582.05400002</real>
+			<key>title</key>
+			<string>Build SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>AB558DE7-E44E-4606-9053-95DE5B5675E2</string>
 		</dict>
 		<key>AB6521B0-12FC-48F8-991D-A79BD692460D</key>
 		<dict>
@@ -3269,6 +3439,40 @@
 			<string>Build SolitaireEncryption</string>
 			<key>uniqueIdentifier</key>
 			<string>F16F4C26-C02C-41E9-BDD5-E006D411259D</string>
+		</dict>
+		<key>F2D1A781-F6FE-4DCB-BFE9-5B46F6CA0210</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F2D1A781-F6FE-4DCB-BFE9-5B46F6CA0210.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591607629.225896</real>
+			<key>timeStoppedRecording</key>
+			<real>591607629.71793795</real>
+			<key>title</key>
+			<string>Build SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>F2D1A781-F6FE-4DCB-BFE9-5B46F6CA0210</string>
 		</dict>
 		<key>F55D16CD-5611-47C0-AE07-87A7424B84A8</key>
 		<dict>

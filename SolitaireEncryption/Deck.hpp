@@ -29,7 +29,7 @@ public:
     // 三重切牌:
     // 将1-(posA-1) / posA-posB / posB-last 转换成
     // posB-last/ posA-posB/ 1-(posA-1)
-    void triple_cut(int posA, int posB);
+    void triple_cut();
     
     // 数字切牌:
     // 将1-(pos-1)/ pos-(last-1)/ last, 转换成

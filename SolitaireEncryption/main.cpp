@@ -9,15 +9,6 @@
 #include <iostream>
 #include "Deck.hpp"
 
-void test_card(){
-    Card c1(1), c2(39),c3("joker",1), c4("heart", 13), c5, c6=c1;
-    c1.output();    cout << endl;
-    c2.output();    cout << endl;
-    c3.output();    cout << endl;
-    c4.output();    cout << endl;
-    c5.output();    cout << endl;
-    cout << "test done"<< endl;
-}
 
 void test_deck_output(Deck &d){
     vector<int> s={0,1,2,3,50,51,52,53};
@@ -27,35 +18,77 @@ void test_deck_output(Deck &d){
     }
     cout << endl;
 }
-void test_deck(){
+
+int get_output_card_value(Deck &d){
     Card joker_A("joker",1), joker_B(54), output_card;
-    Deck d;
-    
-    for (int i=0; i<11;i++){
-//        cout << "Round "<< i<< endl;
-        d.move_one_down(joker_A);
-//        test_deck_output(d);
-        d.move_two_down(joker_B);
-//        test_deck_output(d);
-        d.triple_cut();
-//        test_deck_output(d);
-        d.count_cut(d.get_card(53).get_value());
-//        test_deck_output(d);
-        output_card=d.get_card(
+    d.move_one_down(joker_A);
+    d.move_two_down(joker_B);
+    d.triple_cut();
+    d.count_cut(d.get_card(53).get_value());
+    output_card=d.get_card(
                            d.get_card(0).get_value()
                            );
-        output_card.output();
-//        cout << "........."<<endl;
-        cout << " ";
+    return output_card.get_value();
+}
 
-        
+string encrypt(string message, Deck &d){
+    string output;
+    for (int i=0; i<message.size(); i++){
+        char c=message[i];
+        if (c!=' '){
+            int delta=get_output_card_value(d);
+            if (delta >=53){
+                i--;
+                continue;
+            } else{
+                    char x=((int)c-(int)'A'+delta) % 26 + (int)'A';
+                    output += x;
+            }
+        }else {
+            output +=' ';
+        }
     }
+    
+    return output;
+}
+
+string decrypt(string message, Deck &d){
+    string output;
+    for (int i=0; i<message.size(); i++){
+        char c=message[i];
+        if (c!=' '){
+            int delta=get_output_card_value(d);
+            if (delta >=53){
+                i--;
+                continue;
+            } else{
+                    char x=((int)c-(int)'A' - (delta % 26)+26) % 26 + (int)'A';
+                    output += x;
+            }
+        }else {
+            output +=' ';
+        }
+    }
+    
+    return output;
+}
+
+void test_deck(){
+    Deck d;
+    for (int i=0; i<11;i++){
+        cout << get_output_card_value(d)<< ",";
+    }
+    cout << endl;
 }
 
 
 int main(int argc, const char * argv[]) {
-//    test_card();
-    
-    test_deck();
+    Deck d;
+    string en=encrypt("AAAAA AAAAA",d);
+    cout << en << endl;
+    Deck e;
+    string de=decrypt(en, e);
+    cout << de << endl;
+
     return 0;
 }

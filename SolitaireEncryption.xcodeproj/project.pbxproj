@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C81E67C02342EFFF0033E291 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C81E67BF2342EFFF0033E291 /* main.cpp */; };
+		C81E67C82342F5E20033E291 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C81E67C62342F5E20033E291 /* Card.cpp */; };
+		C81E67CB2342FB7D0033E291 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C81E67C92342FB7D0033E291 /* Deck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		C81E67BC2342EFFF0033E291 /* SolitaireEncryption */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SolitaireEncryption; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81E67BF2342EFFF0033E291 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C81E67C62342F5E20033E291 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		C81E67C72342F5E20033E291 /* Card.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
+		C81E67C92342FB7D0033E291 /* Deck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		C81E67CA2342FB7D0033E291 /* Deck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Deck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				C81E67BF2342EFFF0033E291 /* main.cpp */,
+				C81E67C62342F5E20033E291 /* Card.cpp */,
+				C81E67C72342F5E20033E291 /* Card.hpp */,
+				C81E67C92342FB7D0033E291 /* Deck.cpp */,
+				C81E67CA2342FB7D0033E291 /* Deck.hpp */,
 			);
 			path = SolitaireEncryption;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81E67CB2342FB7D0033E291 /* Deck.cpp in Sources */,
 				C81E67C02342EFFF0033E291 /* main.cpp in Sources */,
+				C81E67C82342F5E20033E291 /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

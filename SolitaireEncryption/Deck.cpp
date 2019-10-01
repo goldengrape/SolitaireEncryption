@@ -11,7 +11,10 @@
 using namespace std;
 
 Deck::Deck(){
-    Card c1(1);
-    seq.push_back(c1);
+    seq.reserve(54);
+    for(int i=1;i<=54;i++){
+        Card c(i);
+        seq.push_back(c);
+    }
 }
 

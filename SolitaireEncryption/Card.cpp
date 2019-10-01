@@ -11,6 +11,8 @@
 #include <iostream>
 using namespace std;
 
+Card::Card():value(1),suite("club"),number(1){};
+
 Card::Card(string s, int n):suite(s), number(n){
     // club/ diamond/ heart/ spade/ joker A/ joker B
     if (s=="club"){
@@ -24,12 +26,9 @@ Card::Card(string s, int n):suite(s), number(n){
     } else if (s=="joker"){
         value=13*4+n;
     }
-};
+}
 
 Card::Card(int value):value(value){
-//    number = (value % 13)?
-//             (value % 13) :
-//             13; // 1-13, not 0-12
     int v=value-1;
     number = v % 13 +1;
     int s= v/13;
@@ -44,13 +43,14 @@ Card::Card(int value):value(value){
     }else if (s==4) {
         suite="joker";
     }
-};
+}
 
-Card::Card():value(1),suite("club"),number(1){};
-Card::Card(Card &c):value(c.value),suite(c.suite),number(c.number){};
+
+Card::Card(const Card &c):value(c.value),suite(c.suite),number(c.number){};
+
 int Card::get_value(){
     return value;
-};
+}
 void Card::output(){
     cout << suite << " " <<number << "=" << value<<",";
-};
+}

@@ -18,9 +18,13 @@ void test_card(){
     c5.output();    cout << endl;
 }
 
+void test_deck(){
+    Deck d;
+}
+
 
 int main(int argc, const char * argv[]) {
     test_card();
-    
+    test_deck();
     return 0;
 }

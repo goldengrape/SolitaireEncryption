@@ -17,10 +17,10 @@ using namespace std;
 
 class Card{
 public:
-    Card(string suite, int number);
     Card();
+    Card(string suite, int number);
     Card(int value);
-    Card(Card &);
+    Card(const Card &other);
     int get_value();
     void output();
 

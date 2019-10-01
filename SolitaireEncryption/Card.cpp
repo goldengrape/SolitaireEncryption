@@ -46,7 +46,7 @@ Card::Card(int value):value(value){
     }
 };
 
-Card::Card():Card(1){};
+Card::Card():value(1),suite("club"),number(1){};
 Card::Card(Card &c):value(c.value),suite(c.suite),number(c.number){};
 int Card::get_value(){
     return value;

@@ -7,3 +7,11 @@
 //
 
 #include "Deck.hpp"
+#include <vector>
+using namespace std;
+
+Deck::Deck(){
+    Card c1(1);
+    seq.push_back(c1);
+}
+

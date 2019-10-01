@@ -19,18 +19,24 @@ void test_card(){
     cout << "test done"<< endl;
 }
 
+void test_deck_output(Deck &d){
+    vector<int> s={0,1,2,3,50,51,52,53};
+    for (int i:s){
+        cout << i <<":";
+        d.get_card(i).output(); cout << endl;
+    }
+    cout << endl;
+}
 void test_deck(){
     Card joker_A("joker",1), joker_B(54);
     Deck d;
     cout << endl;
     d.move_one_down(joker_A);
     d.move_two_down(joker_B);
-    
-    vector<int> s={0,1,2,3,50,51,52,53};
-    for (int i:s){
-        cout << i <<":";
-        d.get_card(i).output(); cout << endl;
-    }
+    test_deck_output(d);
+    d.triple_cut(1,52);
+    test_deck_output(d);
+
 }
 
 

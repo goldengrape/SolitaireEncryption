@@ -40,7 +40,7 @@ void Deck::move_one_down(Card &c){
                 seq[i+1]=c;
                 break;
             } else {
-                seq.insert(seq.begin(), c);
+                seq.insert(seq.begin()+1, c);
                 seq.erase(seq.begin()+i+1);
                 break;
             }
@@ -53,3 +53,21 @@ void Deck::move_two_down(Card &c){
     move_one_down(c);
 }
 
+
+
+
+void Deck::triple_cut(int posA, int posB){
+    // 三重切牌:
+    // 将1-(posA-1) / posA-posB / (posB+1)-last 转换成
+    // posB-last/ posA-posB/ 1-(posA-1)
+    
+    vector<Card> seq_first(seq.cbegin(),seq.cbegin()+posA-1);
+    vector<Card> seq_middle(seq.cbegin()+posA,seq.cbegin()+posB);
+    vector<Card> seq_last(seq.cbegin()+posB+1,seq.cend());
+    
+    seq.clear();
+    seq.reserve(54);
+    seq.insert(seq.end(), seq_last.begin(), seq_last.end() );
+    seq.insert(seq.end(), seq_middle.begin(),seq_middle.end() );
+    seq.insert(seq.end(), seq_first.begin(), seq_first.end() );
+}

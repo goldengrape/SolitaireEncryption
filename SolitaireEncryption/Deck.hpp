@@ -16,10 +16,10 @@
 // 一副牌
 class Deck{
 public:
-    Deck(vector<Card>);
+    Deck(vector<Card> &s):seq(s){};
     Deck(vector<int>);
     Deck();
-    Deck(Deck &);
+    Deck(const Deck &d): seq(d.seq){};
     
     // 将某牌下移一张
     void move_one_down(Card &);
@@ -37,7 +37,7 @@ public:
     void count_cut(int pos);
     
     // 获得第pos张牌
-    Card get_card(int pos);
+    Card& get_card(int pos);
     
 private:
     vector<Card> seq;

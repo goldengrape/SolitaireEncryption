@@ -14,8 +14,9 @@
 using namespace std;
 
 // 一张扑克牌
-
+class Deck;
 class Card{
+    friend Deck;
 public:
     Card();
     Card(string suite, int number);

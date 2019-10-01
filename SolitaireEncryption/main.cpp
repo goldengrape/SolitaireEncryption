@@ -16,15 +16,27 @@ void test_card(){
     c3.output();    cout << endl;
     c4.output();    cout << endl;
     c5.output();    cout << endl;
+    cout << "test done"<< endl;
 }
 
 void test_deck(){
+    Card joker_A("joker",1), joker_B(54);
     Deck d;
+    cout << endl;
+    d.move_one_down(joker_A);
+//    d.move_two_down(joker_B);
+    
+    vector<int> s={0,1,2,3,50,51,52,53};
+    for (int i:s){
+        cout << i <<":";
+        d.get_card(i).output(); cout << endl;
+    }
 }
 
 
 int main(int argc, const char * argv[]) {
-    test_card();
+//    test_card();
+    
     test_deck();
     return 0;
 }

@@ -39,6 +39,8 @@ public:
     // 获得第pos张牌
     Card& get_card(int pos);
     
+    void tri_cut(int posA, int posB, string type);
+    
 private:
     vector<Card> seq;
     

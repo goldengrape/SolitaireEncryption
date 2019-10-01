@@ -54,6 +54,26 @@ void Deck::move_two_down(Card &c){
 }
 
 
+void Deck::tri_cut(int posA, int posB, string type="triple"){
+    vector<Card> seq_first(seq.cbegin(),seq.cbegin()+posA-1+1);
+    vector<Card> seq_middle(seq.cbegin()+posA,seq.cbegin()+posB+1);
+    vector<Card> seq_last(seq.cbegin()+posB+1,seq.cend());
+    
+    seq.clear();
+    seq.reserve(54);
+    
+    if (type=="triple"){
+        seq.insert(seq.end(), seq_last.begin(), seq_last.end() );
+        seq.insert(seq.end(), seq_middle.begin(),seq_middle.end() );
+        seq.insert(seq.end(), seq_first.begin(), seq_first.end() );
+    } else if (type=="count"){
+        seq.insert(seq.end(), seq_middle.begin(),seq_middle.end() );
+        seq.insert(seq.end(), seq_first.begin(), seq_first.end() );
+        seq.insert(seq.end(), seq_last.begin(), seq_last.end() );
+    }
+    
+}
+
 
 
 void Deck::triple_cut(){
@@ -72,13 +92,23 @@ void Deck::triple_cut(){
         }
     }
     
-    vector<Card> seq_first(seq.cbegin(),seq.cbegin()+posA-1+1);
-    vector<Card> seq_middle(seq.cbegin()+posA,seq.cbegin()+posB+1);
-    vector<Card> seq_last(seq.cbegin()+posB+1,seq.cend());
-    
-    seq.clear();
-    seq.reserve(54);
-    seq.insert(seq.end(), seq_last.begin(), seq_last.end() );
-    seq.insert(seq.end(), seq_middle.begin(),seq_middle.end() );
-    seq.insert(seq.end(), seq_first.begin(), seq_first.end() );
+    tri_cut(posA, posB, "triple");
+//
+//    vector<Card> seq_first(seq.cbegin(),seq.cbegin()+posA-1+1);
+//    vector<Card> seq_middle(seq.cbegin()+posA,seq.cbegin()+posB+1);
+//    vector<Card> seq_last(seq.cbegin()+posB+1,seq.cend());
+//
+//    seq.clear();
+//    seq.reserve(54);
+//    seq.insert(seq.end(), seq_last.begin(), seq_last.end() );
+//    seq.insert(seq.end(), seq_middle.begin(),seq_middle.end() );
+//    seq.insert(seq.end(), seq_first.begin(), seq_first.end() );
 }
+
+void Deck::count_cut(int pos){
+    // 数字切牌:
+    // 将1-(pos-1)/ pos-(last-1)/ last, 转换成
+    // pos-(last-1)/ 1-(pos-1)/ last
+    tri_cut(pos, 52, "count");
+}
+

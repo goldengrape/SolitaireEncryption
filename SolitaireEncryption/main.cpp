@@ -36,6 +36,9 @@ void test_deck(){
     test_deck_output(d);
     d.triple_cut();
     test_deck_output(d);
+    d.count_cut(d.get_card(53).get_value());
+    test_deck_output(d);
+
 }
 
 

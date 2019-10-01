@@ -380,6 +380,40 @@
 			<key>uniqueIdentifier</key>
 			<string>2A3DDB28-AA3B-466D-9F67-E835CD2BF381</string>
 		</dict>
+		<key>2A8A9FD6-0FEE-426B-B302-E18ED9842810</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2A8A9FD6-0FEE-426B-B302-E18ED9842810.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591608276.38171101</real>
+			<key>timeStoppedRecording</key>
+			<real>591608277.56217098</real>
+			<key>title</key>
+			<string>Debug SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>2A8A9FD6-0FEE-426B-B302-E18ED9842810</string>
+		</dict>
 		<key>2D0005D9-F6B6-45FE-853D-5D27B8BD90DD</key>
 		<dict>
 			<key>className</key>
@@ -923,6 +957,40 @@
 			<string>Debug SolitaireEncryption</string>
 			<key>uniqueIdentifier</key>
 			<string>6950FB12-E133-4B47-91C6-7AA3760E46BD</string>
+		</dict>
+		<key>69E2E3C5-C409-4759-A521-5DF8EA3F6813</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>69E2E3C5-C409-4759-A521-5DF8EA3F6813.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591608283.48865902</real>
+			<key>timeStoppedRecording</key>
+			<real>591608284.69780397</real>
+			<key>title</key>
+			<string>Debug SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>69E2E3C5-C409-4759-A521-5DF8EA3F6813</string>
 		</dict>
 		<key>6B755669-50A9-4815-A710-2D8F85138D57</key>
 		<dict>
@@ -1773,6 +1841,40 @@
 			<string>Debug SolitaireEncryption</string>
 			<key>uniqueIdentifier</key>
 			<string>A7FE3951-42DF-473A-8B03-30ED65347288</string>
+		</dict>
+		<key>AB8D60FF-838F-4D6C-8A44-62CE0D7D738C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AB8D60FF-838F-4D6C-8A44-62CE0D7D738C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SolitaireEncryption project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SolitaireEncryption</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug SolitaireEncryption</string>
+			<key>timeStartedRecording</key>
+			<real>591608162.44290805</real>
+			<key>timeStoppedRecording</key>
+			<real>591608163.61586106</real>
+			<key>title</key>
+			<string>Debug SolitaireEncryption</string>
+			<key>uniqueIdentifier</key>
+			<string>AB8D60FF-838F-4D6C-8A44-62CE0D7D738C</string>
 		</dict>
 		<key>AC7D66E6-C3FB-49EA-85F5-38AC72E17346</key>
 		<dict>

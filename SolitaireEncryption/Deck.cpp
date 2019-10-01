@@ -39,6 +39,10 @@ void Deck::move_one_down(Card &c){
                 seq[i]=seq[i+1];
                 seq[i+1]=c;
                 break;
+            } else {
+                seq.insert(seq.begin(), c);
+                seq.erase(seq.begin()+i+1);
+                break;
             }
         }
     }

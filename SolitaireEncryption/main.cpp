@@ -24,7 +24,7 @@ void test_deck(){
     Deck d;
     cout << endl;
     d.move_one_down(joker_A);
-//    d.move_two_down(joker_B);
+    d.move_two_down(joker_B);
     
     vector<int> s={0,1,2,3,50,51,52,53};
     for (int i:s){
